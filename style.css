@@ -847,6 +847,41 @@ h4 {
     }
 }
 
+.bloc-partners{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    
+}
+.partners{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color:#333333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.partners ul{
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+.partners li{
+    color: white;
+    
+}
+.partners a{
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
