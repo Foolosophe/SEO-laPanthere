@@ -779,20 +779,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #e4774a;
+    background-color: #C63C01;
 }
 
 .tc-white {
-    color: #e4774a!important;
+    color: #C63C01!important;
+    order: 1;
 }
 
 .btn-atomic-tangerine {
-    background: #e4774a;
+    background: #C63C01;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #e4774a!important;
+    background: #C63C01!important;
     color: #FFFFFF!important;
 }
 
@@ -805,11 +806,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #e4774a!important;
+    color: #C63C01!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #e4774a!important;
+    color: #C63C01!important;
 }
 
 .icon-dark-slate-blue {
@@ -853,6 +854,7 @@ h4 {
 .partners{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 10px;
     justify-content: center;
     color:#333333;
@@ -863,6 +865,7 @@ h4 {
 .partners ul{
     list-style:none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding-left: 0;
