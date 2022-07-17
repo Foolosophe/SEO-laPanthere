@@ -232,7 +232,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -537,6 +537,9 @@ button {
     font-size: 14px;
     opacity: 1;
 }
+.text-scroll{
+   visibility: collapse;
+}
 
 a[data-lightbox] {
     position: relative;
@@ -724,6 +727,11 @@ h3 {
     color: #333333!important;
 }
 
+.color-p-contact{
+    font-size: 14px;
+    text-align: center;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -731,11 +739,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #ffffff!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #ffffff!important;
 }
 
 .icons {
@@ -822,9 +830,7 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
+
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.avif");
@@ -846,43 +852,6 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-}
-
-.bloc-partners{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-    
-}
-.partners{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    justify-content: center;
-    color:#333333;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.partners ul{
-    list-style:none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-left: 0;
-}
-.partners li{
-    color: white;
-    
-}
-.partners a{
-    margin: 20px;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 600;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
